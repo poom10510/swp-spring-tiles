@@ -17,7 +17,7 @@
             <tiles:insertAttribute name="menu" />
         </section>
         
-        <div id="web">
+        <div id="web" class="container">
         	<header id="header">
             	<tiles:insertAttribute name="header" />
 	        </header>
