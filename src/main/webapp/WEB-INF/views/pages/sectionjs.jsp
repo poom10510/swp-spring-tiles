@@ -7,6 +7,13 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<h2>Contact Us Page</h2>
+	<code>
+export default (id, name, timestamp) => ({
+  id: id,
+  name: name,
+  todos: [],
+  timestamp: timestamp
+})
+</code>
 </body>
 </html>

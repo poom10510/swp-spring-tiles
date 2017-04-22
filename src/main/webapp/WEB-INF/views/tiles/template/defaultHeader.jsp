@@ -8,7 +8,7 @@
 </head>
 <body>
 	<div>
-        <h1>Tiles Demo</h1>
+        <h1>Source code</h1>
 	</div>
 </body>
 </html>

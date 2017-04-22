@@ -20,15 +20,15 @@
    </definition>  
  
    <!-- Product Page -->
-   <definition name="products" extends="base-definition">  
-       <put-attribute name="title" value="Products" />  
-       <put-attribute name="body" value="/WEB-INF/views/pages/products.jsp" />  
+   <definition name="sectionjs" extends="base-definition">  
+       <put-attribute name="title" value="Sectionjs" />  
+       <put-attribute name="body" value="/WEB-INF/views/pages/sectionjs.jsp" />  
    </definition>  
        
    <!-- Contact-us Page -->
-   <definition name="contactus" extends="base-definition">  
-       <put-attribute name="title" value="Contact Us" />  
-       <put-attribute name="body" value="/WEB-INF/views/pages/contactus.jsp" />  
+   <definition name="constants" extends="base-definition">  
+       <put-attribute name="title" value="Constants" />  
+       <put-attribute name="body" value="/WEB-INF/views/pages/constants.jsp" />  
    </definition>  
   
 </tiles-definitions>

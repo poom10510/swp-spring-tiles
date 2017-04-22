@@ -7,8 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<div>
-  Made in this world.
-</div>
+	<nav class="navbar navbar-default navbar-fixed-bottom">
+	 <div class="container">
+		 <ul class="nav navbar-nav">
+		    <li><a>Created by Taweerat Chaiman 5710546259</a></li>
+	    </ul>
+	 </div>
+	</nav>
 </body>
 </html>

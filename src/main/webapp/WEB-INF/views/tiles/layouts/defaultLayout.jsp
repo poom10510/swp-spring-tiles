@@ -13,20 +13,23 @@
 </head>
   
 <body>
-        <header id="header">
-            <tiles:insertAttribute name="header" />
-        </header>
-     
-        <section id="sidemenu">
+		<section id="sidemenu">
             <tiles:insertAttribute name="menu" />
         </section>
-             
-        <section id="site-content">
-            <tiles:insertAttribute name="body" />
-        </section>
-         
-        <footer id="footer">
-            <tiles:insertAttribute name="footer" />
-        </footer>
+        
+        <div id="web">
+        	<header id="header">
+            	<tiles:insertAttribute name="header" />
+	        </header>
+	        <section id="site-content" class="container">
+	        	<pre>
+			       	<tiles:insertAttribute name="body" />
+				</pre>
+	        </section>
+	         
+	        <footer>
+	            <tiles:insertAttribute name="footer" />
+	        </footer>
+        </div>
 </body>
 </html>

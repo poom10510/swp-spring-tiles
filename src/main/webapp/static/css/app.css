@@ -1,4 +1,12 @@
-html{
+#web {
+	margin-top: 70px;	
+}
+
+#site-content {
+   margin-bottom: 70px;
+}
+
+/* html{
 	background-color:#2F2F2F;
 }
 
@@ -45,7 +53,6 @@ body{
 
 #sidemenu {
     width: 20%;
-    background-color:#2B2B2B;
     height: 100%;
     overflow: auto;
     float: left;
@@ -56,7 +63,6 @@ body{
 }
 
 #sidemenu #menu {
-    color: #fff;
     text-align: right;
     list-style-type: none;
     margin-right: 40px;
@@ -72,34 +78,12 @@ body{
 
 #sidemenu #menu li a {
     text-decoration: none;
-    text-transform: uppercase;
-    color: #fff;
-}
-
-#sidemenu #menu li:active{
-	border-left: 5px solid hsl(180,70%,55%);
-}
-
-#sidemenu #menu li:hover {
-    background-color: #635555;
-    border-left: 5px solid hsl(180,70%,55%);
 }
 
 .logo{
 	float:left;
 }
 
-#site-content {
-    width: 80%;
-    height: 100%;
-    overflow: auto;
-    float: left;
-    z-index: 20;
-    position: fixed;
-    min-height: 600px;
-    margin-top:10%;
-    margin-bottom:10%;
-    margin-left:20%;
-    padding-left:10px;
-}
+
     
+ */

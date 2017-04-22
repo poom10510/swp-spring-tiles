@@ -1,9 +1,11 @@
 <%@ page isELIgnored="false"%>
-<nav>
-    <a href="${pageContext.request.contextPath}/"><img class="logo" src="${pageContext.request.contextPath}/static/img/Linux-icon.png"></a>
-    <ul id="menu">
-        <li><a href="${pageContext.request.contextPath}/">Home</a></li>
-       <li><a href="${pageContext.request.contextPath}/products">Products</a></li>
-       <li><a href="${pageContext.request.contextPath}/contactus">Contact Us</a></li>
-    </ul>
+
+<nav class="footer navbar navbar-default navbar-fixed-top">
+	<div class="container">
+		<ul class="nav navbar-nav">
+	       <li class="active"><a href="${pageContext.request.contextPath}/">todo.js</a></li>
+	       <li><a href="${pageContext.request.contextPath}/sectionjs">section.js</a></li>
+	       <li><a href="${pageContext.request.contextPath}/constants">constants.js</a></li>
+	    </ul>
+	</div>
 </nav>
